@@ -17,10 +17,10 @@ namespace AdventOfCode.AoC2021.DayTwo.Model
             var splitted = input
                 .Split(' ');
 
-            if (!int.TryParse(splitted[1], out int lenght)) 
+            if (!int.TryParse(splitted[1], out int length)) 
                 throw new ArgumentException($"Value is not int: {splitted[1]}");
 
-            Lenght = lenght;
+            Lenght = length;
 
             Direction = (Direction)Enum.Parse(
                 typeof(Direction), 
