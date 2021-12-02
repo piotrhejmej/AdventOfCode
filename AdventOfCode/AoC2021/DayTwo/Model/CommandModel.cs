@@ -19,7 +19,9 @@ namespace AdventOfCode.AoC2021.DayTwo.Model
 
             if (!int.TryParse(splitted[1], out int lenght)) 
                 throw new ArgumentException($"Value is not int: {splitted[1]}");
+
             Lenght = lenght;
+
             Direction = (Direction)Enum.Parse(
                 typeof(Direction), 
                 Enum
