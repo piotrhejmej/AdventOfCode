@@ -36,6 +36,7 @@ namespace AdventOfCode.AoC2021.DayTwo
                 .Select(r => new CommandModel(r))
                 .ToList()
                 .ForEach(r => sub.Move(r, Model.Task.Two));
+
             var resultB = sub.Horizontal * sub.Depth;
         }
     }

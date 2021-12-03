@@ -1,5 +1,6 @@
-﻿using AdventOfCode.AoC2021.DayTwo;
+﻿using AdventOfCode.AoC2021.DayThree;
+using AdventOfCode.AoC2021.DayTwo;
 
-var solver = new DayTwoSolver();
+var solver = new DayThreeSolver();
 
-solver.TaskOne();
+solver.Solve();
